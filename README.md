@@ -1,6 +1,6 @@
-[![Travis](https://img.shields.io/travis/lucasbastianik/python-nodejs-serverless.svg?style=flat-square)](https://travis-ci.org/lucasbastianik/python-nodejs-serverless)
-[![Pulls](https://img.shields.io/docker/pulls/lucasbastianik/python-nodejs-serverless.svg?style=flat-square)](https://hub.docker.com/r/lucasbastianik/python-nodejs-serverless/)
-[![Release](https://img.shields.io/github/release/lucasbastianik/python-nodejs-serverless.svg?style=flat-square)](https://github.com/lucasbastianik/python-nodejs-serverless/releases)
+[![Travis](https://img.shields.io/travis/lucasbastianik/docker-python-nodejs-serverless.svg?style=flat-square)](https://travis-ci.org/lucasbastianik/docker-python-nodejs-serverless)
+[![Pulls](https://img.shields.io/docker/pulls/lucasbastianik/docker-python-nodejs-serverless.svg?style=flat-square)](https://hub.docker.com/r/lucasbastianik/docker-python-nodejs-serverless/)
+[![Release](https://img.shields.io/github/release/lucasbastianik/docker-python-nodejs-serverless.svg?style=flat-square)](https://github.com/lucasbastianik/python-nodejs-serverless/releases)
 
 ## Python (latest) with Node.js 10.x and Serverless Framework based on [nikolaik/docker-python-nodejs](https://github.com/nikolaik/docker-python-nodejs)
 - Node: 10.x
@@ -19,7 +19,7 @@ docker pull lucasbastianik/python-nodejs-serverless:latest
 
 ### Build from GitHub
 ```
-docker build -t lucasbastianik/python-nodejs-serverless github.com/lucasbastianik/python-nodejs-serverless
+docker build -t lucasbastianik/python-nodejs-serverless github.com/lucasbastianik/docker-python-nodejs-serverless
 ```
 
 ### Run image
