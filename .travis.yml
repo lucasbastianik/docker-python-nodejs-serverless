@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -t python-nodejs .
-  - docker run python-nodejs /bin/sh -c "python -V && pip --version && pipenv --version && node -v && npm -v && yarn --version"
+  - docker build -t python-nodejs-serverless .
+  - docker run python-nodejs-serverless /bin/sh -c "python -V && pip --version && pipenv --version && node -v && npm -v && yarn --version && serverless --version"
