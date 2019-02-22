@@ -1,4 +1,4 @@
-FROM python:stretch
+FROM python:3.6-stretch
 MAINTAINER Lucas Bastianik <lucasbastianik@gmail.com>
 
 # Install node prereqs, nodejs and yarn
